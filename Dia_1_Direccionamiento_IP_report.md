@@ -4,6 +4,7 @@
 2. El comando PING sirve para comprobar si un dispositivo puede comunicarse con otro a través de una red local.
 
 # Cómo se interconecta:
+
 1. Windows Server 2025 y los equipos con Windows 11: cada máquina necesitará una IP única.
 2. Esto permitirá que puedan comunicarse dentro de una red local y con el AD DS.
 3. Si una IP está mal configurada, el entorno Windows 11 jamás encontrará el servidor.
@@ -33,7 +34,22 @@
 <img width="661" height="663" alt="image" src="https://github.com/user-attachments/assets/1542e957-9c9c-48ee-ae03-e16d3285bf55" />
 <img width="661" height="663" alt="image" src="https://github.com/user-attachments/assets/ade5ebc5-ff93-47f2-9397-b5d0ead797e2" />
 
+### Paso D: Configurar la IP en la PC0
+1. Haz doble clic rápido sobre la PC0. Se abrirá una ventanilla con varias pestañas.
+2. Selecciona la pestaña que dice DESKTOP.
+3. Dentro de esa pestaña haz clic en el icono que dice IP CONFIGURATION.
+4. En la ventana que se abre, debe estar marcado STATIC (estático).
 
+<img width="1031" height="852" alt="image" src="https://github.com/user-attachments/assets/2b106271-2034-481c-8f68-1475c7afbf9e" />
 
+5. En la casilla (IPv4 Address, escribe 192.168.1.10)
+6. En la casilla Subnet Mask, verás que sola se completa con 255.255.255.0
+7. Luego cierra en la X que está a la derecha justo donde indica el cursor
+8. Con esta acción abremos configurado la IP de la PC0
+
+<img width="990" height="843" alt="image" src="https://github.com/user-attachments/assets/5ba4d754-d892-4f37-bb90-62362275129f" />
+
+### Paso E: Configurar la IP en la PC1
+1. 
 
 
