@@ -26,6 +26,14 @@
 ### Paso C: Conectar las PCs.
 1. Localiza el icono que parece un rayo eléctrico (se llama CONNECTIONS). Haz clic en él.
 2. Busca el cable llamado COOPER CROSS-OVER (el cable cruzado sirve para conectar dos computadores directamente). Haz clic en él.
-3. 
+3. Haz clic en PCO, selecciona FastEthernet0 y arrastra el cursor hasta PC1 y selecciona FastEthernet0
+4. Verás que los foquitos ahora son verdes, indicando que tenemos conexión física.
+
+<img width="661" height="663" alt="image" src="https://github.com/user-attachments/assets/4456ef3e-1295-4d1b-b709-312fba248562" />
+<img width="661" height="663" alt="image" src="https://github.com/user-attachments/assets/1542e957-9c9c-48ee-ae03-e16d3285bf55" />
+<img width="661" height="663" alt="image" src="https://github.com/user-attachments/assets/ade5ebc5-ff93-47f2-9397-b5d0ead797e2" />
+
+
+
 
 
