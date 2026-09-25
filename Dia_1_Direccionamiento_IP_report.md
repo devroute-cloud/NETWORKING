@@ -50,6 +50,15 @@
 <img width="990" height="843" alt="image" src="https://github.com/user-attachments/assets/5ba4d754-d892-4f37-bb90-62362275129f" />
 
 ### Paso E: Configurar la IP en la PC1
-1. 
+1. Doble clic sobre PC1, Desktop, IP Configuration.
+2. En IPv4 Address escribe: 192.168.1.11 Subnet Mask se llenará solo con 255.255.255.0 y cierra
 
+<img width="1017" height="546" alt="image" src="https://github.com/user-attachments/assets/d852d970-d9f4-413c-bf9e-3b40f0118ab0" />
 
+### Paso F: Probar la comunicación con PING
+1. Ve a PC0 y abre Command Prompt
+2. Dentro escribe: ping 192.168.1.11 = observa, deberías ver respuestas que dicen Reply from...
+
+<img width="1013" height="687" alt="image" src="https://github.com/user-attachments/assets/7e6a65ce-4f83-457e-81ad-7c388e25e3e7" />
+
+# 🎉 ¡Ya dominaste la comunicación básica!
