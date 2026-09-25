@@ -16,6 +16,8 @@
 
 ### Paso B: Encuentra los dispositivos.
 1. Abajo a la izquierda, encuentra el círculo celeste que dice END DEVICES y haz clic.
+
 <img width="330" height="130" alt="image" src="https://github.com/user-attachments/assets/a8a1c10c-889d-4498-8488-e736b9c6f4bf" />
+
 2. Selecciona el icono que dice PC, luego haz clic en dos partes distintas de la pantalla para que aparezcan la PC0 y la PC1.
 
