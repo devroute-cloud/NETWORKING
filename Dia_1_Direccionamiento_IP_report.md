@@ -21,3 +21,11 @@
 
 2. Selecciona el icono que dice PC, luego haz clic en dos partes distintas de la pantalla para que aparezcan la PC0 y la PC1.
 
+<img width="661" height="663" alt="image" src="https://github.com/user-attachments/assets/9cfb0ff2-f75a-42de-a2b6-6e0c33b548a4" />
+
+### Paso C: Conectar las PCs.
+1. Localiza el icono que parece un rayo eléctrico (se llama CONNECTIONS). Haz clic en él.
+2. Busca el cable llamado COOPER CROSS-OVER (el cable cruzado sirve para conectar dos computadores directamente). Haz clic en él.
+3. 
+
+
