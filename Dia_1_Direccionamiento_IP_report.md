@@ -10,3 +10,12 @@
 
 # Práctica guiada con capturas de pantalla incluidas paso a paso dentro de Cisco Packet Tracer:
 
+### Paso A: Apertura de Packet Tracer en tu PC. Verás una pantalla en blanco grande (el área de trabajo)
+
+<img width="1841" height="1028" alt="image" src="https://github.com/user-attachments/assets/c20a0930-eff2-4ae6-9dd9-01a781b4fb6e" />
+
+### Paso B: Encuentra los dispositivos.
+1. Abajo a la izquierda, encuentra el círculo celeste que dice END DEVICES y haz clic.
+<img width="330" height="130" alt="image" src="https://github.com/user-attachments/assets/a8a1c10c-889d-4498-8488-e736b9c6f4bf" />
+2. Selecciona el icono que dice PC, luego haz clic en dos partes distintas de la pantalla para que aparezcan la PC0 y la PC1.
+
