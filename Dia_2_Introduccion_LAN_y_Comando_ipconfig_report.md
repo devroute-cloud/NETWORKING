@@ -37,4 +37,10 @@
 
      <img width="941" height="942" alt="image" src="https://github.com/user-attachments/assets/c1c34bd7-a45a-4c8a-8d3b-2edd7b52c2f0" />
 
-5. Paso E:
+5. Paso E: Configurar IPs en la misma red LAN, Asignaremos IPs estáticas a las tres PCs para que formen parte de la misma red.
+- PC0: Entra a Desktop > IP Configuration y pon IP: 192.168.10.10 (la máscara se completa sola). Cierra la ventana
+- PC1: Entra a Desktop > IP Configuration y pon IP: 192.168.10.11 (la máscara se completa sola). Cierra la ventana
+- PC2: Entra a Desktop > IP Configuration y pon IP: 192.168.10.12 (la máscara se completa sola). Cierra la ventana
+
+  <img width="1681" height="632" alt="image" src="https://github.com/user-attachments/assets/11e3734b-19e1-420a-9f2b-cd82afa4ff80" />
+
