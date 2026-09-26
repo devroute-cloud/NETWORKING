@@ -13,4 +13,28 @@
    ¿Quién soy dentro de esta red?
 2. Muestra la dirección "IP", "Máscara de Subred" y "Puerto de enlace"
 
-# 
+# Práctica guiada junto a capturas de pantalla mostrando el paso a paso dentro de Cisco Packet Tracer
+
+1. Paso A: abrir espacio limpio, File - New y esto abrirá un espacio para empezar a practicar
+
+   <img width="407" height="602" alt="image" src="https://github.com/user-attachments/assets/e8fc0d8e-fb2d-49e1-a525-1f7d5f5c05a3" />
+
+2. Paso B: Colocar el Switch, abajo izquierda - Network Devices - Switch - Modelo 2960 - arrástralo a la pantalla - esta sera nuestra caja que conecta todo.
+
+   <img width="730" height="906" alt="image" src="https://github.com/user-attachments/assets/69a79182-1f73-4074-8388-e1d74054c327" />
+
+3. Paso C: Colocar las PCs, End Devices - coloca 3 PCs alrededor del switch - PC0,PC1 y PC2
+
+   <img width="941" height="942" alt="image" src="https://github.com/user-attachments/assets/36b31006-6174-480d-83b0-f1a2e7048e88" />
+
+4. Paso D: Conectar todo al Switch, Connections (rayo) - Copper Straight-Through (cable directo)
+   - Clic en el cable directo,luego clic en PC0 - FastEthernet0 - y luego arrastra el otro extremo hasta el Switch0 - FastEthernet0/1.
+   - Haz lo mismo con la PC1 - FastEthernet0 / PC1 - Switch
+   - Haz lo mismo con la PC2 - FastEthernet0 / PC2 - Switch
+   - "Verás que los foquitos parpadean en ámbar/naranja unos segundos y luego en verde. ¡Esto significa que el switch ya estableció comunicación con las tres PCs!"
+
+     <img width="941" height="942" alt="image" src="https://github.com/user-attachments/assets/04822f0b-ec78-420f-92ad-18151069738d" />
+
+     <img width="941" height="942" alt="image" src="https://github.com/user-attachments/assets/c1c34bd7-a45a-4c8a-8d3b-2edd7b52c2f0" />
+
+5. Paso E
