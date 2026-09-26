@@ -37,4 +37,4 @@
 
      <img width="941" height="942" alt="image" src="https://github.com/user-attachments/assets/c1c34bd7-a45a-4c8a-8d3b-2edd7b52c2f0" />
 
-5. Paso E
+5. Paso E:
