@@ -44,3 +44,13 @@
 
   <img width="1681" height="632" alt="image" src="https://github.com/user-attachments/assets/11e3734b-19e1-420a-9f2b-cd82afa4ff80" />
 
+6. Paso F: Probar el Switch y usar "ipconfig"
+- Abre consola (Command Prompt) de la PC0
+- Escribe el comando para ver la configuración de red de la PC: ipconfig.
+(Observa cómo muestra la IP 192.168.10.10 que acabamos de configurar)
+
+<img width="610" height="618" alt="image" src="https://github.com/user-attachments/assets/6c8143d3-79db-4870-b751-8d15e29f1488" />
+
+- Ahora, desde esa misma pantalla negra de la PC0, hazle un ping a la PC2 para comprobar que *gracias al switch ahora se comunican*: "ping 192.168.10.12"
+
+<img width="755" height="728" alt="image" src="https://github.com/user-attachments/assets/c3adaa82-0778-48b3-ae89-2a64b2aac560" />
