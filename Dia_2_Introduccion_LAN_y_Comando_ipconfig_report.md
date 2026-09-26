@@ -54,3 +54,5 @@
 - Ahora, desde esa misma pantalla negra de la PC0, hazle un ping a la PC2 para comprobar que *gracias al switch ahora se comunican*: "ping 192.168.10.12"
 
 <img width="755" height="728" alt="image" src="https://github.com/user-attachments/assets/c3adaa82-0778-48b3-ae89-2a64b2aac560" />
+
+🚀 Has hecho un trabajo excelente hoy
