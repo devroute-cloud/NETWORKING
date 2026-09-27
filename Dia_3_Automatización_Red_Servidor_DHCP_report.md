@@ -49,3 +49,10 @@ Para que puedan comunicarse sin que tengas que configurar nada manualmente.
 
        <img width="977" height="725" alt="image" src="https://github.com/user-attachments/assets/e05aa98d-01f1-452d-a54a-ec883065f29d" />
 
+- Paso E: (Hacer que las PCs pidan su IP automáticamente):
+  - Ahora ve a PC0 > doble clic > Desktop > IP > Configuration
+  - Te acuerdas que antes marcabamos Static? !Pues ahora marcaremos la opción que dice DHCP
+  - ¡Mira lo un segundo…! ¡Magia! Verás cómo la PC0 le pregunta al servidor y recibe automáticamente su IP (debería asignarse la 192.168.1.10) y su máscara
+
+    
+
