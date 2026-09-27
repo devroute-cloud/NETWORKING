@@ -31,4 +31,13 @@ Para que puedan comunicarse sin que tengas que configurar nada manualmente.
     <img width="935" height="788" alt="image" src="https://github.com/user-attachments/assets/0ec02261-7ab1-4955-b3cb-70bf801d4824" />
 
 - Paso C: (Asignar IP fija al servidor DHCP): Recuerda "El servidor necesita una IP fija y estática para que las PCs sepan a quién pedirle ayuda"
-- - 
+  - Haz doble clic en Server0,ve a la pestaña Desktop > IP Configuration.
+  - En IPv4 Address, escribe: 192.168.1.100 > La máscara se llenará sola 255.255.255.0 > cierra
+
+    <img width="963" height="561" alt="image" src="https://github.com/user-attachments/assets/617781c8-86c0-4dc5-9269-f1c3cdb253ca" />
+
+- Paso D: (Encender el rol de DHCP en el servidor):
+  - Dentro de Server0 cambia a la pestaña Services (está arriba, al lado de Desktop)
+  - En el menú de la izquierda,busca y haz clic en DHCP
+  - Haz lo siguiente
+    1. Asegúrate de que el botoncito de Service esté en ON (encendido)
