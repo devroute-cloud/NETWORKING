@@ -41,3 +41,11 @@ Para que puedan comunicarse sin que tengas que configurar nada manualmente.
   - En el menú de la izquierda,busca y haz clic en DHCP
   - Haz lo siguiente
     1. Asegúrate de que el botoncito de Service esté en ON (encendido)
+    2. En la opción Gateway, escribe la puerta de enlace que usaremos 192.168.1.1
+    3. En DNS Server déjalo por ahora en 0.0.0.0 (lo veremos en el siguiente día)
+    4. En Start IP Address, asegúrate de que inicie en 192.168.1.10 (para que empiece a repartir desde la 10 en adelante)
+    5. En Maximum Number of Users, puedes dejarlo en 246
+    6. Paso Crucial: Debajo pulsa el botón Guardar (SAVE), y verás que se añade un espacio justo debajo
+
+       <img width="977" height="725" alt="image" src="https://github.com/user-attachments/assets/e05aa98d-01f1-452d-a54a-ec883065f29d" />
+
