@@ -51,8 +51,26 @@ Para que puedan comunicarse sin que tengas que configurar nada manualmente.
 
 - Paso E: (Hacer que las PCs pidan su IP automáticamente):
   - Ahora ve a PC0 > doble clic > Desktop > IP > Configuration
-  - Te acuerdas que antes marcabamos Static? !Pues ahora marcaremos la opción que dice DHCP
+  - ¿Te acuerdas de que antes marcábamos Static?Pues ahora marcaremos la opción que dice DHCP
   - ¡Mira lo un segundo…! ¡Magia! Verás cómo la PC0 le pregunta al servidor y recibe automáticamente su IP (debería asignarse la 192.168.1.10) y su máscara
+ 
+    <img width="1000" height="597" alt="image" src="https://github.com/user-attachments/assets/3779f4bc-6d7d-47c5-9b24-22b580ab106e" />
 
-    
+  - Haz exactamente lo mismo con la PC1: entra a Desktop > IP > Configuration > cámbiala a DHCP, y observa cómo recibe su IP solita (debería ser la 192.168.1.11)
+ 
+    <img width="940" height="653" alt="image" src="https://github.com/user-attachments/assets/af670576-76a7-40da-9fcb-b6acc1c5b383" />
+
+- Paso F: (La prueba de fuego ping):
+  - Abre Command Prompt de la PC0
+  - Escribe "ipconfig" para verificar que el servidor DHCP le dio su IP correctamente
+  - Luego hazle un "ping" a la Pc1 usando la "IP" que le asignó el servidor
+
+    <img width="1122" height="728" alt="image" src="https://github.com/user-attachments/assets/2889d27a-7365-4382-b216-1c1fcee0fcf4" />
+
+    <img width="1122" height="728" alt="image" src="https://github.com/user-attachments/assets/1c9f0654-9f0b-4750-bb66-c8157a25a619" />
+
+
+
+¡Qué gran avance! 🎉
+
 
