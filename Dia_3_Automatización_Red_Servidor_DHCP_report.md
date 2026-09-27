@@ -69,8 +69,8 @@ Para que puedan comunicarse sin que tengas que configurar nada manualmente.
 
     <img width="1122" height="728" alt="image" src="https://github.com/user-attachments/assets/1c9f0654-9f0b-4750-bb66-c8157a25a619" />
 
-
-
-¡Qué gran avance! 🎉
+### ¡Qué gran avance! 🎉
+Ya pasaste de configurar IPs manualmente a montar un servidor DHCP y automatizar todo el proceso.
+Es exactamente la magia que ocurre todos los días en las redes corporativas y en los servidores.
 
 
