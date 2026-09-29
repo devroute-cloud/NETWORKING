@@ -22,3 +22,14 @@ Cada carpeta o documento en este repositorio representará:
 1. **Laboratorios funcionales:** Montados y probados virtualmente en Cisco Packet Tracer.
 2. **Guías de referencia rápida (*Cheatsheets*):** Creadas con mis propias palabras para resolver problemas reales cuando un usuario o equipo falle en la red.
 3. **Evidencia para mi carrera:** Un registro tangible de mi evolución técnica y de mi capacidad para documentar procesos, listo para ser mostrado a futuros reclutadores.
+
+## Temario
+
+Nivel Fundacional (Básico) de Redes Locales (LAN). 
+- Día 1: Direccionamiento IP
+- Día 2: Introducción a LAN (Local Area Network) y comando "ipconfig"
+- Día 3: Automatización de red con el servidor DHCP
+- Día 4: El servidor DNS (El directorio de la Red)
+  
+Nivel Intermedio: Interconexión de Redes y Enrutamiento 
+- Día 5: El router y la puerta de enlace (Gateway)
