@@ -20,12 +20,22 @@ En otras palabras: Cuando una PC quiere hablar con otra afuera de su red local, 
 
      <img width="492" height="570" alt="image" src="https://github.com/user-attachments/assets/54cb5477-3afe-4ea2-9e0e-3bd99b5c2940" />
 
-- paso B: Conectar los dispositivos
+- Paso B: Conectar los dispositivos
   1. Usa el cable directo (Copper Straight-Through) > PC0 > Switch0 (FastEthernet0/1)
   2. Haz lo mismo con la PC1 > Switch0 (FastEthernet0/2)
-  3. Ahora para conectar el Switch al router: cable directo > GigabitEthernet0/0 (o FastEthernet del switch según el modelo) > Switch0 > GigabitEthernet0/0 del Router0 > (Veras que los foquitos tardan unos segundos en ponerse en verde).
+  3. Ahora para conectar el Switch al router: cable directo > GigabitEthernet0/0 (o FastEthernet del switch según el modelo) > Switch0 > GigabitEthernet0/0 del Router0 > (Verás que los foquitos tardan unos segundos en ponerse en verde).
   4. Toma en cuenta estos pasos para activar el router ya que por defecto de fábrica viene apagado: Click en el Router > Configuration > menú izquierdo (GigabitEthernet0/0) > Port Status > ON
 
      <img width="492" height="570" alt="image" src="https://github.com/user-attachments/assets/8a59fa2d-b145-48fc-8b31-56d353d0c97e" />
 
-- 
+- Paso C: Configurar la Puerta de Enlace en el Router - !¡De forma visual!
+  1. Clic en el router
+  2. Selecciona la pestaña Config (arriba)
+  3. INTERFACE > clic en GigabitEthernet0/0 (o la interfaz que hayas conectado)
+  4. En la parte derecha busca "IP Configuration"
+     - En IPv4 Address escribe la que será nuestra puerta de enlace: 192.168.1.1
+     - En Subnet Mask,haz clic y aparecerá sola: 255.255.255.0
+  5. ¡Paso clave! Arriba a la izquierda de esa misma sección de la interfaz, busca el recuadro que dice "Port Status" y asegúrate de marcar la casilla "ON" (encendido). El foquito de la interfaz en el router se pondrá verde
+
+   <img width="1103" height="823" alt="image" src="https://github.com/user-attachments/assets/ad6ef92f-b939-4546-800b-e595103d844a" />
+  
