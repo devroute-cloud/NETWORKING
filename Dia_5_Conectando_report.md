@@ -28,7 +28,7 @@ En otras palabras: Cuando una PC quiere hablar con otra afuera de su red local, 
 
      <img width="492" height="570" alt="image" src="https://github.com/user-attachments/assets/8a59fa2d-b145-48fc-8b31-56d353d0c97e" />
 
-- Paso C: Configurar la Puerta de Enlace en el Router - !¡De forma visual!
+- Paso C: Configurar la Puerta de Enlace en el Router - ¡De forma visual!
   1. Clic en el router
   2. Selecciona la pestaña Config (arriba)
   3. INTERFACE > clic en GigabitEthernet0/0 (o la interfaz que hayas conectado)
@@ -39,3 +39,11 @@ En otras palabras: Cuando una PC quiere hablar con otra afuera de su red local, 
 
    <img width="1103" height="823" alt="image" src="https://github.com/user-attachments/assets/ad6ef92f-b939-4546-800b-e595103d844a" />
   
+Paso D: Configurar las PCs con su Gateway
+- Toma en cuenta que en esta práctica "no hemos montado un servidor DHCP, así que configuraremos las IPs de las PCs a mano, pero agregando la puerta de enlace"
+  1. PC0: Entra a Desktop > IP > Configuration > IP: 192.168.1.10 > Subnet Mask: 255.255.255.0 > Default Gateway: 192.168.1.1 (Aquí ponemos la IP del router)
+  2. PC1: Entra a Desktop > IP > Configuration > IP: 192.168.1.11 > Subnet Mask: 255.255.255.0 > Default Gateway: 192.168.1.1
+
+  <img width="1385" height="825" alt="image" src="https://github.com/user-attachments/assets/55cfeeb3-bd27-4e1f-89d4-237dc53fb910" />
+
+
