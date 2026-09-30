@@ -46,4 +46,11 @@ Paso D: Configurar las PCs con su Gateway
 
   <img width="1385" height="825" alt="image" src="https://github.com/user-attachments/assets/55cfeeb3-bd27-4e1f-89d4-237dc53fb910" />
 
+-Paso E: La prueba de fuego
+1. Abre el "Command Prompt" de la PC0
+2. Hazle un "ping" a la IP del router para comprobar que ve su puerta de enlace: 192.168.1.1
+3. Si responde con éxito, hazle un "ping" a la PC1 (192.168.1.11) para confirmar que la red sigue comunicada a través del switch
 
+  <img width="1841" height="998" alt="image" src="https://github.com/user-attachments/assets/569cffef-b264-4018-9439-ba2813c196ff" />
+
+   
