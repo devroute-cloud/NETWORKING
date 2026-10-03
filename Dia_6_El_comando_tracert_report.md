@@ -31,3 +31,11 @@ Nos ayuda a localizar exactamente dónde se produce un fallo o un retraso en la 
       -IP de la PC1: 192.168.2.10 | Máscara: 255.255.255.0 | Gateway: 192.168.2.1
 
         <img width="1828" height="987" alt="image" src="https://github.com/user-attachments/assets/21f1306f-61c7-4da3-8a3f-b3782c61caac" />
+
+   - Paso D La prueba del comando "tracert" = El comando "Tracert": rastrea el camino hacia la PC1 ubicada en la otra red
+     - PC0 -> Commando Prompt -> tracert 192.168.2.10
+     - Observa la magia de la consola: te mostrará el Salto 1 (la IP del router local) 192.168.1.1 que es la puerta de salida y el Salto 2 (la IP final del destino 192.168.2.10)
+
+  <img width="948" height="988" alt="image" src="https://github.com/user-attachments/assets/555afbee-8eef-47e7-b4ad-ae8075a0d37d" />
+
+## Has hecho un trabajo extraordinario el día de hoy
