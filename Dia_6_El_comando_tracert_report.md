@@ -1,8 +1,8 @@
 # El Comando "tracert" y la Ruta de los Paquetes 
 
 1. "tracert" (Traceroute): Es una herramienta de diagnóstico de red que muestra la ruta exacta y cada uno de los saltos intermedios,
-(como routers) ¿Qué un paquete de datos debe dar para viajar desde el origen hasta el destino?
-Nos ayuda a localizar exactamente dónde hay un fallo o un retraso en la red.
+(como routers) ¿Qué debe incluir un paquete de datos para viajar desde el origen hasta el destino?
+Nos ayuda a localizar exactamente dónde se produce un fallo o un retraso en la red.
 
 2. Práctica guiada paso a paso con Cisco Packet Tracer
    -Paso A: Armar la topología de dos redes separadas
@@ -14,7 +14,20 @@ Nos ayuda a localizar exactamente dónde hay un fallo o un retraso en la red.
 
    -Paso B: Conectar los dispositivos con los cables correctos
     - Utiliza un cable directo (Copper Straight-Through) de la PC0 al Switch0, y de la PC1 al Switch1
-    - Para conectar los switches al router,usa también cables directos desde los pertos del switch hacia las dos interfaces del router.
+    - Para conectar los switches al router,usa también cables directos desde los puertos del switch hacia las dos interfaces del router.
       Adicional activa el router ( GigabitEthernet0/0 y GigabitEthernet0/1)
 
    <img width="873" height="748" alt="image" src="https://github.com/user-attachments/assets/74aabfb7-1350-472b-b3ed-76fdd0f5d30b" />
+
+   - Paso C: Configurar las IPs y las puertas de enlace
+     -PC0 y su lado del router:
+      - IP del router (GigabitEthernet0/0): 192.168.1.1 (Máscara 255.255.255.0) -> ¡Recuerda darle a ON en Port Status!
+      - IP de la PC0: 192.168.1.10 (Máscara 255.255.255.0), (Gateway 192.168.1.1)
+
+        <img width="1375" height="985" alt="image" src="https://github.com/user-attachments/assets/0ff6996c-2d3a-46c4-9efd-546a2af6e915" />
+
+     -PC1 y su lado del router:
+      -IP del router (GigabitEthernet0/1):192.168.2.1 (Máscara 255.255.255.0) -> ¡Recuerda activar el puerto en ON!
+      -IP de la PC1: 192.168.2.10 | Máscara: 255.255.255.0 | Gateway: 192.168.2.1
+
+        <img width="1828" height="987" alt="image" src="https://github.com/user-attachments/assets/21f1306f-61c7-4da3-8a3f-b3782c61caac" />
